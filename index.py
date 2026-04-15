@@ -35,7 +35,7 @@ from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeo
 # CONFIGURATION (OTOMATIS - TIDAK PERLU DIUBAH)
 # ============================================================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-BASE_URL = "https://dejavaneseautoparts.com"
+BASE_URL = "https://dejava.raihanfaiq.my.id"
 SALES_URL = f"{BASE_URL}/sales"
 
 LOG_DIR = os.path.join(BASE_DIR, "logs")
